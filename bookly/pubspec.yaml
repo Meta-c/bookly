@@ -39,6 +39,7 @@ dev_dependencies:
   font_awesome: ^5.10.1
   font_awesome_flutter: ^10.4.0
   get: ^4.6.5
+  google_fonts: ^4.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
