@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'features/Splash/presentation/views/splash_view.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const BooklyApp());
 }
 
@@ -14,6 +15,7 @@ class BooklyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+        useInheritedMediaQuery: true,
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark()
             .copyWith(scaffoldBackgroundColor: kBackgroundColor),
